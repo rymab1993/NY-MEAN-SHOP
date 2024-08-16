@@ -1,0 +1,316 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NY mean_stor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9aa767ffa7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+
+    <!-- header -->
+    <header class="container">
+        <a href="" class="logo" style="font-style: oblique;">NY MEAN SHOP</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active"><span class="home-icon"><i class="fa-solid fa-house"></i></span></a></li>
+                <li><a href="#about">អំពីផលិតផលរបស់យើង</a></li>
+                <li><a href="#about">លក្ខណៈពិសេស</a></li>
+                <li><a href="#products">ផលិតផល</a></li>
+                <li><a href="#contact">ទាក់ទងមកយើងខ្ញុំ</a></li>
+            </ul>
+        </nav>
+        
+        <div class="iconBar">
+            <i class="fa-solid fa-magnifying-glass"  id="search-btn"></i>
+            <i id="menu" class="fas fa-bars"></i>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+        <div>
+            <i class="cart-icon" onclick="toggleCart()">🛒<span class="cart-count" id="cart-count">0</span></i>
+        </div>
+    </header>
+
+
+    <!-- home section -->
+    <section class="home container" id="home">
+        <div class="grid-1x2 grid-hero">
+            <div class="home-content">
+                <h1 data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000'>កាបូបស្ត្រី <span class="home-style">ទាន់សម័យគួរឱ្យស្រលាញ់</span></h1>
+                <p data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000'>ស្វែងយល់ពីកាបូបនារីទាន់សម័យដ៏គួរឱ្យស្រលាញ់ ដែលរចនាឡើងសម្រាប់បុគ្គលដែលមានម៉ូតទាន់សម័យ។ ទាន់សម័យ ចម្រុះ និងឡូយ វាជាគ្រឿងបន្លាស់ចុងក្រោយដើម្បីលើកកំពស់សម្លៀកបំពាក់ណាមួយដោយភាពឆើតឆាយ។</p>
+                <button data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="btn"​​>Order Now</button>
+            </div>
+            <div class="home-img">
+                <img data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' src="./CV.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+     <!-- លក្ខណៈពិសេសសំខាន់នៃផលិតផល -->
+     <section class="core  container" id="core">
+    <h1 class="heading" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">លក្ខណៈពិសេសសំខាន់នៃផលិតផល</h1>
+    <div class="grid-1x2">
+        <div  class="core-img">
+            <img data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000' src="./cv4.png" alt="">
+        </div>
+        <div class="card-container">
+            <div data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000'  class="card">
+                <h3><i class="fa-solid fa-user"></i> អ្នក​ប្រើ​ដែល​ងាយ​ស្រួល​</h3>
+                <p>មានជម្រើសជាច្រើន ពណ៌ ជាច្រើន ទំហំការរចនា: លំនាំទាន់សម័យពណ៌និងមានផាសុកភាពមានគុណភាព.</p>
+            </div>
+            <div data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000'  class="card">
+                <h3><i class="fa-sharp fa-solid fa-shield-halved"></i>  មានសុវត្ថិភាពពេលបានប្រើ</h3>
+                <p>មានជម្រើសជាច្រើន ពណ៌ ជាច្រើន ទំហំការរចនា: លំនាំទាន់សម័យពណ៌និងមានផាសុកភាពមានគុណភាព.</p>
+            </div>
+            <div data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000'  class="card">
+                <h3><i class="fa-solid fa-pen-nib"></i> ងាយស្រួលថែរក្សា</h3>
+                <p>មានជម្រើសជាច្រើន ពណ៌ ជាច្រើន ទំហំការរចនា: លំនាំទាន់សម័យពណ៌និងមានផាសុកភាពមានគុណភាព..</p>
+            </div>
+            <div data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000'  class="card">
+                <h3><i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i>  ចាក់ការធ្វើដោយដៃ</h3>
+                <p>មានជម្រើសជាច្រើន ពណ៌ ជាច្រើន ទំហំការរចនា: លំនាំទាន់សម័យពណ៌និងមានផាសុកភាពមានគុណភាព.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- about section -->
+    <section class="about container" id="about">
+        <h1 class="heading" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">អំពីផលិតផលរបស់យើង</h1>
+        <div class="grid-1x2">
+            <div class="about-img">
+                <img data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' src="./p n2.png" alt="">
+            </div>
+            <div class="about-content">
+                <h3 data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000'>កាបូបល្អបំផុតនិងទាន់សម័យសម្រាប់ជីវិតងាយស្រួល</h3>
+                <p data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000'>កាបូបដៃផ្តល់ជូននូវភាពងាយស្រួលរចនាប័ទ្មនិងមុខងារដែលអនុញ្ញាតឱ្យអ្នកប្រើប្រាស់អនុវត្តវត្ថុសំខាន់ៗដូចជាកាបូបទូរស័ព្ទនិងគ្រឿង make-up។ ពួកគេបំពេញសំលៀកបំពាក់លើកកម្ពស់របៀបផ្ទាល់ខ្លួននិងមានភាពបត់បែនសម្រាប់ឱកាសផ្សេងៗគ្នា។</p>
+                <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="about-icon">
+                    <span  class="icon-veri"><i class="fa-sharp fa-solid fa-square-check"></i> មានជម្រើសជាច្រើន ពណ៌  ជាច្រើន ទំហំ</span> <br>
+                    <span  class="icon-veri"><i class="fa-sharp fa-solid fa-square-check"></i> ការរចនា: លំនាំទាន់សម័យពណ៌និងមានផាសុកភាព</span> <br>
+                    <span  class="icon-veri"><i class="fa-sharp fa-solid fa-square-check"></i> ស្បែកក្រណាត់មានគុណភាព</span>
+                </div>
+                <button data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="btn">Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature section -->
+    
+
+    <!-- products section -->
+    <section class="products container" id="products">
+        <h1 class="heading" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">ផលិតផលដ៏អស្ចារ្យរបស់យើង។ ជ្រើសរើសមួយល្អបំផុត!</h1>
+        <div class="grid-1x4">
+            <article data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+               <div class="products-img">
+                <img src="./p1.jpg" alt="">
+                <div class="products-content">
+                    <h3>កាបូបស្ត្រី</h3>
+                    <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                    <h4 class="pice">$15/-</h4>
+                    <button class="outline-btn ">add to cart</button>
+                </div>
+               </div>
+            </article>
+            <article data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+               <div class="products-img">
+                <img src="./cv3.png" alt="">
+                <div class="products-content">
+                    <h3>កាបូបស្ត្រី</h3>
+                    <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                    <h4 class="pice">$15/-</h4>
+                    <button class="outline-btn ">add to cart</button>
+                </div>
+               </div>
+            </article>
+            <article data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+               <div class="products-img">
+                <img src="./p3.jpg" alt="">
+                <div class="products-content">
+                    <h3>កាបូបស្ត្រី</h3>
+                    <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                    <h4 class="pice">$15/-</h4>
+                    <button class="outline-btn ">add to cart</button>
+                </div>
+               </div>
+            </article>
+            <article data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+               <div class="products-img">
+                <img src="./p4.jpg" alt="">
+                <div class="products-content">
+                    <h3>កាបូបស្ត្រី</h3>
+                    <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                    <h4 class="pice">$15/-</h4>
+                    <button class="outline-btn ">add to cart</button>
+                </div>
+               </div>
+            </article>
+
+            <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+               <div class="products-img">
+                <img src="./p5.jpg" alt="">
+                <div class="products-content">
+                    <h3>កាបូបស្ត្រី</h3>
+                    <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                    <h4 class="pice">$20/-</h4>
+                    <button class="outline-btn ">add to cart</button>
+                </div>
+               </div>
+            </article>
+            <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+               <div class="products-img">
+                <img src="./p6.jpg" alt="">
+                <div class="products-content">
+                    <h3>កាបូបស្ត្រី</h3>
+                    <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                    <h4 class="pice">$19/-</h4>
+                    <button class="outline-btn ">add to cart</button>
+                </div>
+               </div>
+            </article>
+            <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+               <div class="products-img">
+                <img src="./p7.jpg" alt="">
+                <div class="products-content">
+                    <h3>កាបូបស្ត្រី</h3>
+                    <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                    <h4 class="pice">$15/-</h4>
+                    <button class="outline-btn ">add to cart</button>
+                </div>
+               </div>
+            </article>
+            <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+                <div class="products-img">
+                 <img src="./p8.jpg" alt="">
+                 <div class="products-content">
+                     <h3>កាបូបស្ត្រី</h3>
+                     <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ.</p>
+                     <h4 class="pice">$15/-</h4>
+                     <button class="outline-btn ">add to cart</button>
+                 </div>
+                </div>
+             </article>
+             <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container" >
+                <div class="products-img">
+                    <img src="./p9.jpg" alt="">
+                    <div class="products-content">
+                        <h3>កាបូបស្ត្រី</h3>
+                        <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ?</p>
+                        <h4 class="pice">$15/-</h4>
+                        <button class="outline-btn">add to cart</button>
+                    </div>
+                </div>
+             </article>
+             <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+                <div class="products-img">
+                    <img src="./p10.jpg" alt="">
+                    <div class="products-content">
+                        <h3>កាបូបស្ត្រី</h3>
+                        <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ</p>
+                        <h4 class="pice">$15/-</h4>
+                        <button class="outline-btn">add to cart</button>
+                    </div>
+                </div>
+             </article>
+             <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+                <div class="products-img">
+                    <img src="./p11.jpg" alt="">
+                    <div class="products-content">
+                        <h3>កាបូបស្ត្រី</h3>
+                        <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ</p>
+                        <h4 class="pice">$20/-</h4>
+                        <button class="outline-btn">add to cart</button>
+                    </div>
+                </div>
+             </article>
+             <article data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' class="products-container">
+                <div class="products-img">
+                    <img src="./p12.jpg" alt="">
+                    <div class="products-content">
+                        <h3>កាបូបស្ត្រី</h3>
+                        <p>ទាន់សម័យគួរឱ្យស្រលាញ់ ងាយស្រួលប្រើ តម្លៃថោកជាងគេ</p>
+                        <h4 class="pice">$15/-</h4>
+                        <button class="outline-btn">add to cart</button>
+                    </div>
+                </div>
+             </article>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact container" id="contact">
+        <h1 class="heading" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">contact us</h1>
+        <div class="grid-1x2">
+            <form data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration='1000' action="">
+                <div class="input-box">
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="your email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="number phone">
+                </div>
+                <div class="input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="message" ></textarea>
+                </div>
+                <button class="block-btn btn">send massage</button>
+            </form>
+            <div data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration='1000' class="contact-content">
+                <h3>ត្រូវការ​ជំនួយ? កុំភ្លេចទាក់ទងមកយើងខ្ញុំ</h3>
+                <p>ទីតាំងជាប់ផ្លូវ60ម៉ែត្រ​ក្បែ Urban Village ទីតាំងជាប់ផ្លូវ60ម៉ែត្រ ជិតផ្សារទំនើបជីបម៉ុង និងជិតផ្សារទំនើប Æon 3 </p>
+                <div class="contact-icon">
+                    <span class="icon-span"><i class="fa-solid fa-location-dot"></i>  Phnom penh, cambodia</span>
+                    <span class="icon-span"><i class="fa-solid fa-phone"></i>  +885 888800595/0962800595</span>
+                    <span class="icon-span"><i class="fa-solid fa-envelope"></i>  rymab13@mekong.edu.kh </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container">
+        <h1 class="heading" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">Follow admin</h1>
+        <div class="grid-1x4 footer-space">
+            <div class="footer-icon">
+                <a href="https://www.facebook.com/rymab.kh" class="fa-brands fa-facebook"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="#" class="fa-brands fa-tiktok"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="#" class="fa-brands fa-instagram"></a>
+            </div>
+            <div class="footer-icon">
+                <a href="https://www.youtube.com/@rymab4391" class="fa-brands fa-youtube"></a>
+            </div>
+        </div>
+        <div class="grid-1x3 footer-space">
+            <p class="footer-txt">Privacy Policy</p>
+            <p class="footer-txt">Terms & Conditions</p>
+            <p class="footer-txt">©RY Mab</p>
+        </div>
+    </footer>
+
+</body>
+<script src="./script.js"></script>
+</html>
